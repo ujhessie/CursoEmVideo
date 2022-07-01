@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>iFrames-aula</title>
+        <style type="text/css" media="all">
+            h1, h2 {
+                text-align: center;
+            }
+            iframe {
+                display: block;
+                text-align: center;
+                margin: 0 auto;
+                width: 70%;
+                height: 300px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Criando iFrames</h1>
+            <hr />
+        <h2>Um iframe para a mesma pagina</h2>
+            <iframe src="#" frameborder="1"></iframe>
+            <!-- o 'frameborder' define a borda do iframe que ai de 0 a 1 -->
+            <hr />
+        <h2>iframe para pagina externa</h2>
+            <iframe src="https://www.cursoemvideo.com/" frameborder="0" scrolling="no" ></iframe>
+            <!-- o parametro 'scrolling' difine a barra de rolgem do iframe (auto, yes, no) -->
+            <p>alguns sites sao protegidos contra iframes. O <a href="https://www.google.com">google</a>  e um exemplo</p>
+    </body>
+</html>
